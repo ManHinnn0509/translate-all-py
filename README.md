@@ -1,15 +1,17 @@
 # translate-all-py
 
 Translate .txt file to all languages that Google Translate supports. <br>
-One translation will be stored as one .txt file
+One translation will be stored as one .txt file. <br>
+
+See [translate-all.py](https://github.com/ManHinnn0509/translate-all-py/blob/main/translate-all.py)
 
 ---
 
 ## Requirements
 
-* [requests]("https://pypi.org/project/requests/)
-* [googletrans]("https://pypi.org/project/googletrans/")
-* [beautifulsoup4]("https://pypi.org/project/beautifulsoup4/")
+* [requests](https://pypi.org/project/requests/)
+* [googletrans](https://pypi.org/project/googletrans/)
+* [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)
 
 ---
 

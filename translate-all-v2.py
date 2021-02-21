@@ -30,7 +30,7 @@ counter = 1
 for code, name in supportedLanguages.items():
     name = name.capitalize().strip().replace(" ", "_")
 
-    print("Translating to [" + name + "] (" + code + ")... (" + str(counter) + " / " + str(langAmount) + ") ", end = "")
+    print("Translating to [" + name + "] (" + code + ") ... (" + str(counter) + " / " + str(langAmount) + ") ", end = "")
     counter += 1
 
     t = ""

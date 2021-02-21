@@ -3,6 +3,7 @@ import requests
 from googletrans import Translator
 from bs4 import BeautifulSoup as bs
 
+# It turns out that the API has "googletrans.LANGUAGES"
 def getSupportedLanguages():
     docURL = "https://cloud.google.com/translate/docs/languages"
     html = bs(requests.get(docURL).text, 'html.parser')

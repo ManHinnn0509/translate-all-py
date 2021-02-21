@@ -3,7 +3,7 @@
 Translate .txt file to all languages that Google Translate supports. <br>
 One translation will be stored as one .txt file. <br>
 
-See [translate-all.py](https://github.com/ManHinnn0509/translate-all-py/blob/main/translate-all.py)
+See [translate-all.py](./translate-all.py)
 
 ---
 
@@ -16,6 +16,7 @@ See [translate-all.py](https://github.com/ManHinnn0509/translate-all-py/blob/mai
 ---
 
 ## Example output on console:
+
 ```
 Translating to [Afrikaans] (af) ... (1 / 107) [SUCCESS]
 Translating to [Albanian] (sq) ... (2 / 107) [SUCCESS]

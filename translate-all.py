@@ -20,12 +20,13 @@ mkdir(outputDirName)
 inputFileName = "doc.txt"
 content = readTextFile(inputFileName)
 
-supportedLanguages = googletrans.LANGUAGES
-
 # ---------------------------------------------------
 
 translator = Translator()
+
+supportedLanguages = googletrans.LANGUAGES
 langAmount = len(supportedLanguages)
+
 counter = 1
 for code, name in supportedLanguages.items():
     name = name.capitalize().strip().replace(" ", "_")

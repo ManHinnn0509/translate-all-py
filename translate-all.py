@@ -33,7 +33,7 @@ for code, name in supportedLanguages.items():
     print("Translating to [" + name + "] (" + code + ") ... (" + str(counter) + " / " + str(langAmount) + ") ", end = "")
     counter += 1
 
-    t = ""
+    s = ""
     try:
         s = translator.translate(content, dest = code).text
     except ValueError:

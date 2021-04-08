@@ -9,9 +9,7 @@ See [translate-all.py](./translate-all.py)
 
 ## Requirements
 
-* [requests](https://pypi.org/project/requests/)
 * [googletrans](https://pypi.org/project/googletrans/)
-* [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)
 
 ---
 
